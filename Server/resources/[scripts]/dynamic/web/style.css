@@ -1,0 +1,130 @@
+::-webkit-scrollbar {
+	width: 0;
+}
+
+::selection {
+	background: transparent;
+}
+
+::-moz-selection {
+	background: transparent;
+}
+
+body,
+html {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	transition: all 0.2s;
+	font-family: "Roboto";
+	justify-content: center;
+}
+
+b {
+	font-weight: 300;
+}
+
+.Body {
+	max-width: 320px;
+	max-height: 450px;
+	position: absolute;
+	display: block;
+	overflow-y: auto;
+	left: 2rem;
+}
+
+.Container {
+	margin: 1rem;
+}
+
+.btn {
+	color: #ccc;
+	outline: none;
+	display: block;
+	font-size: 16px;
+	min-height: 30px;
+	max-height: 58px;
+	min-width: 280px;
+	margin-bottom: 5px;
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid #ffffff22;
+	padding: 20px 16px 12px 13px;
+	background: rgba(15, 15, 15, 0.85);
+}
+
+.btn:hover,
+.normalbutton:hover {
+	color: #fff;
+	background: rgba(13, 83, 145, 0.95);
+}
+
+.title {
+	float: left;
+	font-size: 15px;
+	margin-top: -9px;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+.description {
+	color: #999;
+	font-size: 11px;
+	margin-top: 13px;
+	text-align: left;
+	letter-spacing: 0.8px;
+}
+
+.btn:hover .description,
+.normalbutton:hover .description {
+	color: #c8dfff;
+}
+
+.btn:hover .title {
+	color: #fff;
+}
+
+.description blue,
+.description b {
+	color: #6fa9dc;
+}
+
+.normalbutton {
+	color: #ccc;
+	display: block;
+	font-size: 15px;
+	cursor: default;
+	min-width: 245px;
+	margin-bottom: 5px;
+	position: relative;
+	border-radius: 5px;
+    letter-spacing: 1px;
+	border: 1px solid #ffffff22;
+	padding: 20px 16px 12px 13px;
+	background: rgba(15, 15, 15, 0.85);
+}
+
+.blue {
+	color: #362d09;
+	background: #5380a7;
+}
+
+.blue:hover,
+.blue:hover .description {
+	color: #fff;
+	background: #3a5c79;
+}
+
+.blue .description {
+	color: #fff;
+}
+
+.titleBack {
+	color: #fff;
+	float: left;
+	font-size: 15px;
+	margin-top: -9px;
+	text-align: left;
+	letter-spacing: 2px;
+}

@@ -1,0 +1,213 @@
+::-webkit-scrollbar {
+	width: 0;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #ccc;
+	font-size: 13px;
+	font-family: "Roboto";
+}
+
+* {
+	overflow: hidden;
+	user-select: none;
+	box-sizing: border-box;
+}
+
+#Body {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+#Services {
+	width: 663px;
+	height: 695px;
+	padding: 30px;
+	position: relative;
+	border-radius: 4px;
+	background: rgba(15, 15, 15, .90);
+}
+
+#Content {
+	width: 600px;
+	overflow: auto;
+	max-height: 595px;
+}
+
+.Line {
+	float: left;
+	width: 600px;
+	padding-top: 14px;
+	letter-spacing: 1px;
+	padding-bottom: 14px;
+	background: rgba(15, 15, 15, .75);
+}
+
+.Line:last-child {
+	margin-bottom: 0;
+}
+
+.Title {
+	float: left;
+	width: 600px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-bottom: 21px;
+	text-transform: uppercase;
+}
+
+.Line-Number {
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+
+.Line-Name {
+	float: left;
+	width: 200px;
+	text-align: left;
+}
+
+.Line-Hierarchy {
+	float: left;
+	width: 100px;
+	text-align: left;
+}
+
+.Line-Status {
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+.Line-Remove {
+	float: left;
+	width: 75px;
+	color: #fec026;
+	text-align: center;
+}
+
+.Add {
+	top: 32px;
+	right: 45px;
+	color: #fec026;
+	position: absolute;
+	letter-spacing: 1px;
+}
+
+verde {
+	color: #26fe5e;
+}
+
+vermelho {
+	color: #fe2626;
+}
+
+#Modal {
+	top: 100px;
+	z-index: 99;
+	right: 150px;
+	width: 300px;
+	display: none;
+	padding: 30px;
+	color: #715611;
+	border-radius: 4px;
+	position: absolute;
+	background: #fec026;
+	box-shadow: 0 0 10px #181818;
+}
+
+.ModalTitle {
+	float: left;
+	width: 240px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.ModalTitle b {
+	color: #9c771c;
+	display: block;
+	font-size: 11px;
+	font-weight: 300;
+}
+
+.Button {
+	border: 0;
+	float: left;
+	width: 115px;
+	color: #715611;
+	padding: 10px 0;
+	margin-right: 10px;
+	letter-spacing: 1px;
+	background: #fec026;
+}
+
+.Button:last-child {
+	margin-right: 0;
+}
+
+.Input {
+	border: 0;
+	color: #333;
+	float: left;
+	width: 240px;
+	padding: 10px;
+	background: #fff;
+	margin-right: 5px;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.Input:focus {
+	outline: 0;
+	color: #333;
+}
+
+.Input::placeholder {
+	color: #333;
+}
+
+.Hiera {
+	border: 0;
+	color: #333;
+	float: left;
+	width: 240px;
+	padding: 10px;
+	background: #fff;
+	margin-right: 5px;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.Hiera:focus {
+	outline: 0;
+	color: #333;
+}
+
+.Hiera::placeholder {
+	color: #333;
+}

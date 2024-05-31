@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+	<startFrom value="2500" />
+	<proxies>
+		<Item>uniqx_burgershot_mlo</Item>
+		<Item>id1_h_shell_2fl_milo_</Item>
+		<Item>id1_h_shell_1fl_milo_</Item>
+		<Item>k4mb1_cave_milo_</Item>
+		<Item>k4mb1_caveexterior_milo_</Item>
+		<Item>sanhje_prison_cafeteria_placement</Item>
+		<Item>sanhje_prison_infirmary_placement</Item>
+		<Item>sanhje_prison_placement</Item>
+		<Item>sanhje_prison_reception_placement</Item>
+		<Item>hw1_vpd_main_milo_</Item>
+		<Item>hw1_vpd_gar_milo_</Item>
+		<Item>int_genstore_milo_</Item>
+		<Item>v_clinick</Item>
+		<Item>creativeFranklin</Item>
+		<Item>creativeLostudios</Item>
+		<Item>creativeOneFloors</Item>
+		<Item>creativeSquare</Item>
+		<Item>creativeThreeFloors</Item>
+		<Item>creativeTwoFloors</Item>
+		<Item>creativeWarehouseL</Item>
+		<Item>creativeWarehouseM</Item>
+		<Item>creativeWarehouseS</Item>
+		<Item>driving_school_milo_</Item>
+		<Item>adis_illegal_pawnshop_ymap</Item>
+		<Item>eastpawn</Item>
+		<Item>apa_bt1_03_strm_0</Item>
+		<Item>bt1_03_strm_0</Item>
+		<Item>int_apteka3_milo_</Item>
+		<Item>int_magazel1_milo_</Item>
+	</proxies>
+</SInteriorOrderData>
